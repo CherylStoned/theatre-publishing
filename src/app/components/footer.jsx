@@ -29,8 +29,8 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Contact Us</h3>
             <p className="text-green-100">
-              Email: frogvalleypublishing@gmail.com<br />
-              Phone: (540) 338-3324
+              Email: FrogValleyPublishing@gmail.com<br />
+              Phone: (540) 338-3224
             </p>
           </div>
         </div>

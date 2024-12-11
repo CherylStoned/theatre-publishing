@@ -13,7 +13,6 @@ const plays = [
       male: 9,
       total: 19
     },
-    price: "$75",
     description: "The play follows a day in the life of a mute, homeless man who is forced, literally, to beg for change in the subway. On this day, however, through some interaction with a young girl and her pushy stage mother, he finds a spark of inspiration and, through a series of touching, comic, violent, and very truthful scenes, begins to re-establish contact with the rest of the world.",
     awards: ["Virginia Theatre Association Winner", "Southeastern Theatre Conference Winner"],
     set: "Minimal"
@@ -27,7 +26,6 @@ const plays = [
       male: 35,
       total: 70
     },
-    price: "$125",
     description: "This play has a king, a queen, a herd of princes and princesses, clowns, hand puppets, a giant fairy godmother, people with gigantic noses, and a three-headed monster named Mad Marsha…and everybody speaks! Each of nine princesses has some unpleasant character flaw.",
     set: "Multiple scenes",
     features: "Puppetry and physical comedy"
@@ -41,7 +39,6 @@ const plays = [
       male: 6,
       total: 12
     },
-    price: "$75",
     description: "A tour bus driver from a small town in Mexico falls asleep at the wheel and wrecks the bus. All the passengers die, but he survives. Although he bears tremendous guilt, in his village, he's treated as someone touched by God and elevated to celebrity status.",
     set: "Minimal",
     features: "Mask work performance"
@@ -55,7 +52,6 @@ const plays = [
       male: 5,
       total: "13-16"
     },
-    price: "$75",
     description: "The play chronicles the outrageous, ridiculous, and occasionally painful experiences of five different couples as they experience the magic and mystery of pregnancy. From conception to birth, with all the delightful moments in between.",
     awards: ["2nd Place Virginia Theatre Association", "3rd Place Virginia High School League State Theatre"],
     set: "Multiple scenes"
@@ -69,7 +65,6 @@ const plays = [
       male: 3,
       total: "10-13"
     },
-    price: "$75",
     description: "Brian is the skinny guy without a girl. Malia, a girl, is his best friend. But Brian lusts after Emma, the cool popular girl, who barely knows his name. In his efforts to impress and get next to Emma, Brian keeps finding himself in situations he finds horrible and awkward, nearly all of which involve dance.",
     features: "Dance performances",
     set: "Flexible staging"
@@ -83,7 +78,6 @@ const plays = [
       male: 6,
       total: 18
     },
-    price: "$75",
     description: "Ethan wants to marry Melissa. Now! But a trip to the theatre turns into a life lesson on 'patience as a necessary virtue' when he is drawn from the anonymity of the audience onto the stage and into the glare of the spotlights.",
     set: "Minimal",
     features: "Interactive elements"
@@ -97,7 +91,6 @@ const plays = [
       male: 4,
       total: 11
     },
-    price: "$75",
     description: "Carolyn, a young woman who always seems to fall for the wrong man, decides to give up men and falls in love with the statue of David. She manages to spend the night in the museum to be closer to him, only to find that he and several other statues come to life at closing!",
     awards: ["Showcase Production for Virginia Theatre Association Convention 2000"],
     set: "Museum setting"
@@ -111,7 +104,6 @@ const plays = [
       male: 3,
       total: "11-14"
     },
-    price: "$75",
     description: "There's an unusual theory that before being born, humans have ultimate knowledge of all things. With this odd premise in mind, Jackson, a young man about to be born, is treated to a preview of his life by a very special group of actors.",
     awards: ["Advanced to VHSL Regional 2002", "Advanced to State 2007"],
     set: "Abstract setting"
@@ -125,7 +117,6 @@ const plays = [
       male: 4,
       total: 12
     },
-    price: "$75",
     description: "A lot can happen while waiting online in the grocery store…Late at night…When the only open check-out lane is the self-serve with the talking computer…that has an attitude and a mind of its own. Love begins, ends, and is rediscovered, as everyone waits…and waits…and waits online.",
     set: "Grocery store setting",
     features: "Interactive computer character"
@@ -139,7 +130,6 @@ const plays = [
       male: 4,
       total: 6
     },
-    price: "$75",
     description: "Shakespeare's classic Othello told in modern language through dialogue and blues music in 30 minutes.",
     awards: ["3rd Place Virginia High School League State Theatre 1992"],
     features: "Musical elements",
@@ -154,7 +144,6 @@ const plays = [
       male: 2,
       total: 10
     },
-    price: "$75",
     description: "Mary's scholarship to the very exclusive Bedinger Academy for Girls is threatened when her bitter, pompous teacher, Mr. Hastings, accuses her of plagiarism. Innocent of the accusation, but faced with possible expulsion, Mary and her friends scheme to prove her innocence and get rid of the evil Mr. Hastings for good.",
     set: "Classroom setting"
   },
@@ -167,7 +156,6 @@ const plays = [
       male: 9,
       total: 18
     },
-    price: "$75",
     description: "Commissioned by the City of Harrisonburg/Rockingham County Public Schools in conjunction with the Virginia Department of Health to combat teen pregnancy, this play was designed to be performed by high school students for middle school students.",
     set: "Minimal",
     features: "Educational content"
@@ -181,7 +169,6 @@ const plays = [
       male: 1,
       total: 2
     },
-    price: "$75",
     description: "This play features 2 actors playing 9 different roles and tells the wacky story of a serial killer whose signature targets are vegetarian women. A tour-de-force for a pair of actors with strong improvisational backgrounds who love broad, ridiculous characters.",
     features: "Multiple role-playing",
     set: "Minimal with quick changes"
@@ -195,7 +182,6 @@ const plays = [
       male: 5,
       total: 11
     },
-    price: "$75",
     description: "Commissioned by the University of South Carolina as a short play to be performed for all incoming freshmen to inform and deter dangerous, immature, or naïve behavior resulting, primarily from alcohol abuse.",
     set: "Minimal",
     features: "Educational content"
@@ -297,8 +283,7 @@ export default function Page({ params }) {
             </div>
           )}
 
-          <div className="flex items-center justify-between mt-8 pt-8 border-t border-gray-200">
-            <div className="text-2xl font-bold text-green-700">{play.price}</div>
+          <div className="flex items-center justify-end mt-8 pt-8 border-t border-gray-200">
             <Link 
               href={`mailto:frogvalleypublishing@gmail.com?subject=Quote Request: ${play.title}`}
               className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors text-lg"
@@ -329,8 +314,8 @@ export default function Page({ params }) {
             <div>
               <h3 className="text-lg font-bold mb-4">Contact Us</h3>
               <p className="text-green-100">
-                Email: frogvalleypublishing@gmail.com<br />
-                Phone: (540) 338-3324
+                Email: FrogValleyPublishing@gmail.com<br />
+                Phone: (540) 338-3224
               </p>
             </div>
           </div>
