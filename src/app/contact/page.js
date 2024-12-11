@@ -108,19 +108,19 @@ export default function Contact() {
                   <div>
                     <h3 className="text-xl font-semibold text-green-800 mb-2">How do I license a play?</h3>
                     <p className="text-gray-600">
-                      Contact us via email or phone with your play selection and performance dates. We'll provide you with a quote and licensing agreement.
+                      Contact us via email or phone with your play selection and performance dates. We&apos;ll provide you with a quote and licensing agreement.
                     </p>
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-semibold text-green-800 mb-2">What if I don't know the performance dates?</h3>
+                    <h3 className="text-xl font-semibold text-green-800 mb-2">What if I don&apos;t know the performance dates?</h3>
                     <p className="text-gray-600">
                       We are able to provide a license with the dates To Be Determined (TBD). We must be informed of the performance dates as soon as possible.
                     </p>
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-semibold text-green-800 mb-2">What's included with the license?</h3>
+                    <h3 className="text-xl font-semibold text-green-800 mb-2">What&apos;s included with the license?</h3>
                     <p className="text-gray-600">
                       Each license includes a PDF of the script, performance rights for agreed dates, and permission to make copies for your cast and crew.
                     </p>
@@ -129,7 +129,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-xl font-semibold text-green-800 mb-2">Can I modify the script?</h3>
                     <p className="text-gray-600">
-                      Changing gender of major characters and making cuts to achieve specific time limits must be approved in advance. Altering language to make a play or references more "current" is acceptable.
+                      Changing gender of major characters and making cuts to achieve specific time limits must be approved in advance. Altering language to make a play or references more &quot;current&quot; is acceptable.
                     </p>
                   </div>
 

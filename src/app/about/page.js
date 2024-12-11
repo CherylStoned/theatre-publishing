@@ -57,7 +57,7 @@ export default function About() {
             <Card>
               <CardContent className="p-8">
                 <p className="text-gray-600">
-                  Frog Valley Publishing is dedicated to providing high-quality theatrical works for educational and competitive settings. Since 1999, we've been publishing award-winning plays that have enriched theater programs across the country.
+                  Frog Valley Publishing is dedicated to providing high-quality theatrical works for educational and competitive settings. Since 1999, we&apos;ve been publishing award-winning plays that have enriched theater programs across the country.
                 </p>
               </CardContent>
             </Card>
@@ -70,19 +70,19 @@ export default function About() {
               <CardContent className="p-8">
                 <div className="space-y-6">
                   <p className="text-gray-600">
-                    John Wells, an award-winning playwright and educator, dedicated nearly four decades to shaping young theatrical minds at Loudoun County High School before his retirement in 2020. His journey as a playwright began in 1991 with "Competition Piece," which was promptly published by Samuel French (now Concord Theatricals). This marked the beginning of a prolific writing career that yielded nearly 20 plays of varying lengths and themes.
+                    John Wells, an award-winning playwright and educator, dedicated nearly four decades to shaping young theatrical minds at Loudoun County High School before his retirement in 2020. His journey as a playwright began in 1991 with &quot;Competition Piece,&quot; which was promptly published by Samuel French (now Concord Theatricals). This marked the beginning of a prolific writing career that yielded nearly 20 plays of varying lengths and themes.
                   </p>
 
                   <p className="text-gray-600">
-                    A celebrated figure in Virginia's theatrical education landscape, Wells garnered numerous prestigious accolades. He won both the Virginia Theatre Association and Southeast Theatre Conference High School play competitions twice (1995/96 and 1999/2000). His original work "Invisible Man" became a cornerstone of Virginia high school theater, achieving the distinction of being the most-produced one-act at the Virginia High School League (VHSL) State level competition between 2002 and 2013, with six productions during this period.
+                    A celebrated figure in Virginia&apos;s theatrical education landscape, Wells garnered numerous prestigious accolades. He won both the Virginia Theatre Association and Southeast Theatre Conference High School play competitions twice (1995/96 and 1999/2000). His original work &quot;Invisible Man&quot; became a cornerstone of Virginia high school theater, achieving the distinction of being the most-produced one-act at the Virginia High School League (VHSL) State level competition between 2002 and 2013, with six productions during this period.
                   </p>
 
                   <p className="text-gray-600">
-                    Wells' impact on educational theater extended beyond his personal achievements. In a remarkable demonstration of his influence, three of the sixteen plays produced at the 2010 VHSL A/AA State level competition were his original works. His mentorship inspired generations of young playwrights, with nearly 20 of his students being selected for the New Voices for Theatre Summer Playwriting Institute between 1989 and 2019.
+                    Wells&apos; impact on educational theater extended beyond his personal achievements. In a remarkable demonstration of his influence, three of the sixteen plays produced at the 2010 VHSL A/AA State level competition were his original works. His mentorship inspired generations of young playwrights, with nearly 20 of his students being selected for the New Voices for Theatre Summer Playwriting Institute between 1989 and 2019.
                   </p>
 
                   <p className="text-gray-600">
-                    His excellence in education received wide recognition. Wells was named an "Agnes Meyer Teacher of the Year" Finalist in both 2000 and 2007, and received the Virginia Theatre Association's prestigious "Lifetime Achievement Award" in 2006. In 2019, he achieved another milestone by becoming one of the first Certified Master Educators named by the Virginia Theatre Association.
+                    His excellence in education received wide recognition. Wells was named an &quot;Agnes Meyer Teacher of the Year&quot; Finalist in both 2000 and 2007, and received the Virginia Theatre Association&apos;s prestigious &quot;Lifetime Achievement Award&quot; in 2006. In 2019, he achieved another milestone by becoming one of the first Certified Master Educators named by the Virginia Theatre Association.
                   </p>
 
                   <p className="text-gray-600">
@@ -92,7 +92,7 @@ export default function About() {
                   <div className="space-y-4">
                     <h3 className="text-xl font-semibold text-green-800">Awards & Recognition</h3>
                     <ul className="list-disc list-inside text-gray-600 ml-4">
-                      <li>Virginia Theatre Association "Lifetime Achievement Award" (2006)</li>
+                      <li>Virginia Theatre Association &quot;Lifetime Achievement Award&quot; (2006)</li>
                       <li>Agnes Meyer Teacher of the Year Finalist (2000, 2007)</li>
                       <li>Certified Master Educator - Virginia Theatre Association (2019)</li>
                       <li>Two-time winner of VTA and SETC High School play competitions</li>
